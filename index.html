@@ -404,18 +404,18 @@
         gameId: undefined,
     }
     function getServerUrl() {
-        var SENSORS_REPORT_URL = 'https://api-sensors.shein.com'
+        var SENSORS_REPORT_URL = XXXXXXXXXXXXXXXXX
         var environment = 'production';
-        var url = '';
+        var url = 'XXXXXXXXXXXXXXXXX ';
         switch(environment) {
             case 'gray':
-                url = SENSORS_REPORT_URL + '/sa?project=project_gray'
+                url = SENSORS_REPORT_URL + 
                 break
             case 'production':
-                url = SENSORS_REPORT_URL + '/sa?project=production'
+                url = SENSORS_REPORT_URL + XXXXXXXXXXXXX
                 break
             default:
-                url = SENSORS_REPORT_URL + '/sa?project=default'
+                url = SENSORS_REPORT_URL + XXXXXXXXXXXXXXX 
                 break
         }
         return url
@@ -468,7 +468,7 @@
         y.parentNode.insertBefore(x, y);
       }
     })({
-        sdk_url: '//sheinsz.ltwebstatic.com/she_dist/libs/sensors/shein.min.js',
+        sdk_url: XXXXXXXXXXXXXXXXXXXX ,
         name: 'sensors',
         server_url: getServerUrl(),
         send_type: 'beacon',
@@ -571,7 +571,7 @@
 </script>
 
     
-<link rel="stylesheet" type="text/css" href="//sheinsz.ltwebstatic.com/she_dist/css/my_account-5494aae405.css">
+<link rel="stylesheet" type="text/css" href=XXXXXXXXXXXXXXX>
 
 
 <style>
@@ -703,7 +703,7 @@
       
 
       console.log('###### ga pageview');
-      ga(GB_ANALYSIS_GA_SET, 'location', location.href);
+      ga(GB_ANALYSIS_GA_SET, 'location', XXXXXXXXXX.href);
       ga(GB_ANALYSIS_GA_SEND, 'pageview');
 
     }
